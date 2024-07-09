@@ -11,7 +11,6 @@ plt.plot(X_t, Y_t)
 plt.show()
 
 '''
-
 rnn = RunRNN(X_t, Y_t, Tanh())
 
 X_new = np.arange(0, 20, 0.3)
